@@ -19,6 +19,7 @@ getArray()
         resolve(evenNumbers);
       }, 1000); 
   })
+})
   .then((evenNumbers) => {
     return new Promise((resolve) => {
       const doubled = evenNumbers.map((num) => num * 2);
